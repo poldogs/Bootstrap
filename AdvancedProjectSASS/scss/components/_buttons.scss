@@ -22,7 +22,7 @@
         border-radius: 50%;
 
         i {
-            color: $white;
+            color: $black;
             font-size: 1rem;
             line-height: 2.5rem;
         }
@@ -36,7 +36,9 @@
         span {
             background-color: rgba($black, 0.6);
 
-            svg{fill:#ffffff}
+            i {
+                color: $white;
+            }
         }
     }
 }
